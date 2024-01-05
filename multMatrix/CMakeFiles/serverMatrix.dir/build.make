@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/practica1
+CMAKE_SOURCE_DIR = /home/ubuntu/practica2/multMatrix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/practica1
+CMAKE_BINARY_DIR = /home/ubuntu/practica2/multMatrix
 
 # Include any dependencies generated for this target.
 include CMakeFiles/serverMatrix.dir/depend.make
@@ -57,93 +57,93 @@ include CMakeFiles/serverMatrix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/serverMatrix.dir/flags.make
 
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o: CMakeFiles/serverMatrix.dir/flags.make
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o: serverMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o -c /home/ubuntu/practica1/serverMatrix.cpp
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o: CMakeFiles/serverMatrix.dir/flags.make
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o: servidor/serverMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o -c /home/ubuntu/practica2/multMatrix/servidor/serverMatrix.cpp
 
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverMatrix.dir/serverMatrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica1/serverMatrix.cpp > CMakeFiles/serverMatrix.dir/serverMatrix.cpp.i
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica2/multMatrix/servidor/serverMatrix.cpp > CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.i
 
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverMatrix.dir/serverMatrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica1/serverMatrix.cpp -o CMakeFiles/serverMatrix.dir/serverMatrix.cpp.s
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica2/multMatrix/servidor/serverMatrix.cpp -o CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.s
 
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.requires:
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.requires
+.PHONY : CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.requires
 
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.provides: CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.provides.build
-.PHONY : CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.provides
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.provides: CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.provides
 
-CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.provides.build: CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o
-
-
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.o: CMakeFiles/serverMatrix.dir/flags.make
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.o: multmatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serverMatrix.dir/multmatrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serverMatrix.dir/multmatrix.cpp.o -c /home/ubuntu/practica1/multmatrix.cpp
-
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverMatrix.dir/multmatrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica1/multmatrix.cpp > CMakeFiles/serverMatrix.dir/multmatrix.cpp.i
-
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverMatrix.dir/multmatrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica1/multmatrix.cpp -o CMakeFiles/serverMatrix.dir/multmatrix.cpp.s
-
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.requires:
-
-.PHONY : CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.requires
-
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.provides: CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.provides.build
-.PHONY : CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.provides
-
-CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.provides.build: CMakeFiles/serverMatrix.dir/multmatrix.cpp.o
+CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.provides.build: CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o
 
 
-CMakeFiles/serverMatrix.dir/utils.cpp.o: CMakeFiles/serverMatrix.dir/flags.make
-CMakeFiles/serverMatrix.dir/utils.cpp.o: utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serverMatrix.dir/utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serverMatrix.dir/utils.cpp.o -c /home/ubuntu/practica1/utils.cpp
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o: CMakeFiles/serverMatrix.dir/flags.make
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o: servidor/multmatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o -c /home/ubuntu/practica2/multMatrix/servidor/multmatrix.cpp
 
-CMakeFiles/serverMatrix.dir/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverMatrix.dir/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica1/utils.cpp > CMakeFiles/serverMatrix.dir/utils.cpp.i
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica2/multMatrix/servidor/multmatrix.cpp > CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.i
 
-CMakeFiles/serverMatrix.dir/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverMatrix.dir/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica1/utils.cpp -o CMakeFiles/serverMatrix.dir/utils.cpp.s
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica2/multMatrix/servidor/multmatrix.cpp -o CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.s
 
-CMakeFiles/serverMatrix.dir/utils.cpp.o.requires:
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/serverMatrix.dir/utils.cpp.o.requires
+.PHONY : CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.requires
 
-CMakeFiles/serverMatrix.dir/utils.cpp.o.provides: CMakeFiles/serverMatrix.dir/utils.cpp.o.requires
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/utils.cpp.o.provides.build
-.PHONY : CMakeFiles/serverMatrix.dir/utils.cpp.o.provides
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.provides: CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.provides
 
-CMakeFiles/serverMatrix.dir/utils.cpp.o.provides.build: CMakeFiles/serverMatrix.dir/utils.cpp.o
+CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.provides.build: CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o
+
+
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o: CMakeFiles/serverMatrix.dir/flags.make
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o: servidor/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o -c /home/ubuntu/practica2/multMatrix/servidor/utils.cpp
+
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverMatrix.dir/servidor/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica2/multMatrix/servidor/utils.cpp > CMakeFiles/serverMatrix.dir/servidor/utils.cpp.i
+
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverMatrix.dir/servidor/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica2/multMatrix/servidor/utils.cpp -o CMakeFiles/serverMatrix.dir/servidor/utils.cpp.s
+
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.requires:
+
+.PHONY : CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.requires
+
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.provides: CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.provides.build
+.PHONY : CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.provides
+
+CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.provides.build: CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o
 
 
 # Object files for target serverMatrix
 serverMatrix_OBJECTS = \
-"CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o" \
-"CMakeFiles/serverMatrix.dir/multmatrix.cpp.o" \
-"CMakeFiles/serverMatrix.dir/utils.cpp.o"
+"CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o" \
+"CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o" \
+"CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o"
 
 # External object files for target serverMatrix
 serverMatrix_EXTERNAL_OBJECTS =
 
-serverMatrix: CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o
-serverMatrix: CMakeFiles/serverMatrix.dir/multmatrix.cpp.o
-serverMatrix: CMakeFiles/serverMatrix.dir/utils.cpp.o
+serverMatrix: CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o
+serverMatrix: CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o
+serverMatrix: CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o
 serverMatrix: CMakeFiles/serverMatrix.dir/build.make
 serverMatrix: CMakeFiles/serverMatrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable serverMatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable serverMatrix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serverMatrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,9 +151,9 @@ CMakeFiles/serverMatrix.dir/build: serverMatrix
 
 .PHONY : CMakeFiles/serverMatrix.dir/build
 
-CMakeFiles/serverMatrix.dir/requires: CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o.requires
-CMakeFiles/serverMatrix.dir/requires: CMakeFiles/serverMatrix.dir/multmatrix.cpp.o.requires
-CMakeFiles/serverMatrix.dir/requires: CMakeFiles/serverMatrix.dir/utils.cpp.o.requires
+CMakeFiles/serverMatrix.dir/requires: CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o.requires
+CMakeFiles/serverMatrix.dir/requires: CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o.requires
+CMakeFiles/serverMatrix.dir/requires: CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o.requires
 
 .PHONY : CMakeFiles/serverMatrix.dir/requires
 
@@ -162,6 +162,6 @@ CMakeFiles/serverMatrix.dir/clean:
 .PHONY : CMakeFiles/serverMatrix.dir/clean
 
 CMakeFiles/serverMatrix.dir/depend:
-	cd /home/ubuntu/practica1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/practica1 /home/ubuntu/practica1 /home/ubuntu/practica1 /home/ubuntu/practica1 /home/ubuntu/practica1/CMakeFiles/serverMatrix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/practica2/multMatrix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix/CMakeFiles/serverMatrix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serverMatrix.dir/depend
 

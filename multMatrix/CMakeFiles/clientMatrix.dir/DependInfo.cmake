@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/practica1/clientMatrix.cpp" "/home/ubuntu/practica1/CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o"
-  "/home/ubuntu/practica1/main_multMatrix.cpp" "/home/ubuntu/practica1/CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o"
-  "/home/ubuntu/practica1/utils.cpp" "/home/ubuntu/practica1/CMakeFiles/clientMatrix.dir/utils.cpp.o"
+  "/home/ubuntu/practica2/multMatrix/cliente/clientMatrix.cpp" "/home/ubuntu/practica2/multMatrix/CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o"
+  "/home/ubuntu/practica2/multMatrix/cliente/main_multMatrix.cpp" "/home/ubuntu/practica2/multMatrix/CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o"
+  "/home/ubuntu/practica2/multMatrix/cliente/utils.cpp" "/home/ubuntu/practica2/multMatrix/CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

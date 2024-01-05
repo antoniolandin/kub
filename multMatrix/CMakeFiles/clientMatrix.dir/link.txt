@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -static -rdynamic CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o CMakeFiles/clientMatrix.dir/utils.cpp.o  -o clientMatrix -lpthread 
+/usr/bin/c++  -g  -static -rdynamic CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o  -o clientMatrix -lpthread 

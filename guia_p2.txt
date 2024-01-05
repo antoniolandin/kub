@@ -1,0 +1,64 @@
+=======================================
+===============PRACTICA================
+=======================================
+
+Multmatrix:
+IP: 172.31.49.54  (maquina3)
+PUERTO: 31082 
+
+sudo docker build .
+BUILD TAG: f168de81ddbf
+
+-Creamos tag y hacemos push
+>sudo docker tag f168de81ddbf iliketheoranges/multmatrix:0.3
+>sudo docker push iliketheoranges/multmatrix:0.3
+
+-Reiniciamos deployments y servicios
+>kubectl delete deployment <nombre>
+>kubectl delete service <nombre>
+
+-Instanciamos los .yaml de deployments y de servicio
+>kubectl apply -f multmatrix-deploymets.yaml
+>kubectl apply -f multmatrix-services.yaml
+
+-Comprobamos que se han instanciado correctamente
+>kubectl get deployments
+>kubectl get services
+
+-Ejecutamos ./client
+./clientMatrix
+
+
+-Comprobamos que uno de nuestros pods tenga el archivo "resultados.txt"
+
+>kubectl get pods
+>kubectl exec -ti <pod_name> -- ls
+
+===============================
+
+FileManager:
+IP: 172.31.50.58 (maquina 2)
+PUERTO 31083
+
+sudo docker build .
+BUILD TAG: 82236eb1e831
+
+Creamos tag y hacemos push
+>sudo docker tag 82236eb1e831iliketheoranges/filemanager:0.2
+
+-Instanciamos los .yaml de deployments y de servicio
+>kubectl apply -f filemanager-deploymets.yaml
+>kubectl apply -f filemanager-services.yaml
+
+-Comprobamos que se han instanciado correctamente
+>kubectl get deployments
+>kubectl get services
+
+-Ejecutamos ./client en el master
+./client
+
+-Comprobamos que la carpeta del servidor ha guardado un archivo 
+o nuestra carpeta local ha descargado un archivo para comprobar
+
+
+

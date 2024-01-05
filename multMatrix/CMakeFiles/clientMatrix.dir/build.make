@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/practica1
+CMAKE_SOURCE_DIR = /home/ubuntu/practica2/multMatrix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/practica1
+CMAKE_BINARY_DIR = /home/ubuntu/practica2/multMatrix
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clientMatrix.dir/depend.make
@@ -57,93 +57,93 @@ include CMakeFiles/clientMatrix.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clientMatrix.dir/flags.make
 
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o: CMakeFiles/clientMatrix.dir/flags.make
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o: main_multMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o -c /home/ubuntu/practica1/main_multMatrix.cpp
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o: CMakeFiles/clientMatrix.dir/flags.make
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o: cliente/clientMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o -c /home/ubuntu/practica2/multMatrix/cliente/clientMatrix.cpp
 
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica1/main_multMatrix.cpp > CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.i
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica2/multMatrix/cliente/clientMatrix.cpp > CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.i
 
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica1/main_multMatrix.cpp -o CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.s
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica2/multMatrix/cliente/clientMatrix.cpp -o CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.s
 
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.requires:
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.requires
+.PHONY : CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.requires
 
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.provides: CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.provides.build
-.PHONY : CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.provides
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.provides: CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.provides
 
-CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.provides.build: CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o
-
-
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o: CMakeFiles/clientMatrix.dir/flags.make
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o: clientMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o -c /home/ubuntu/practica1/clientMatrix.cpp
-
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientMatrix.dir/clientMatrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica1/clientMatrix.cpp > CMakeFiles/clientMatrix.dir/clientMatrix.cpp.i
-
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientMatrix.dir/clientMatrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica1/clientMatrix.cpp -o CMakeFiles/clientMatrix.dir/clientMatrix.cpp.s
-
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.requires:
-
-.PHONY : CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.requires
-
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.provides: CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.requires
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.provides.build
-.PHONY : CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.provides
-
-CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.provides.build: CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o
+CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.provides.build: CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o
 
 
-CMakeFiles/clientMatrix.dir/utils.cpp.o: CMakeFiles/clientMatrix.dir/flags.make
-CMakeFiles/clientMatrix.dir/utils.cpp.o: utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/clientMatrix.dir/utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clientMatrix.dir/utils.cpp.o -c /home/ubuntu/practica1/utils.cpp
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o: CMakeFiles/clientMatrix.dir/flags.make
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o: cliente/main_multMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o -c /home/ubuntu/practica2/multMatrix/cliente/main_multMatrix.cpp
 
-CMakeFiles/clientMatrix.dir/utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientMatrix.dir/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica1/utils.cpp > CMakeFiles/clientMatrix.dir/utils.cpp.i
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica2/multMatrix/cliente/main_multMatrix.cpp > CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.i
 
-CMakeFiles/clientMatrix.dir/utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientMatrix.dir/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica1/utils.cpp -o CMakeFiles/clientMatrix.dir/utils.cpp.s
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica2/multMatrix/cliente/main_multMatrix.cpp -o CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.s
 
-CMakeFiles/clientMatrix.dir/utils.cpp.o.requires:
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.requires:
 
-.PHONY : CMakeFiles/clientMatrix.dir/utils.cpp.o.requires
+.PHONY : CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.requires
 
-CMakeFiles/clientMatrix.dir/utils.cpp.o.provides: CMakeFiles/clientMatrix.dir/utils.cpp.o.requires
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/utils.cpp.o.provides.build
-.PHONY : CMakeFiles/clientMatrix.dir/utils.cpp.o.provides
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.provides: CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.provides
 
-CMakeFiles/clientMatrix.dir/utils.cpp.o.provides.build: CMakeFiles/clientMatrix.dir/utils.cpp.o
+CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.provides.build: CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o
+
+
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o: CMakeFiles/clientMatrix.dir/flags.make
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o: cliente/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o -c /home/ubuntu/practica2/multMatrix/cliente/utils.cpp
+
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clientMatrix.dir/cliente/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/practica2/multMatrix/cliente/utils.cpp > CMakeFiles/clientMatrix.dir/cliente/utils.cpp.i
+
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clientMatrix.dir/cliente/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/practica2/multMatrix/cliente/utils.cpp -o CMakeFiles/clientMatrix.dir/cliente/utils.cpp.s
+
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.requires:
+
+.PHONY : CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.requires
+
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.provides: CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.provides.build
+.PHONY : CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.provides
+
+CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.provides.build: CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o
 
 
 # Object files for target clientMatrix
 clientMatrix_OBJECTS = \
-"CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o" \
-"CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o" \
-"CMakeFiles/clientMatrix.dir/utils.cpp.o"
+"CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o" \
+"CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o" \
+"CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o"
 
 # External object files for target clientMatrix
 clientMatrix_EXTERNAL_OBJECTS =
 
-clientMatrix: CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o
-clientMatrix: CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o
-clientMatrix: CMakeFiles/clientMatrix.dir/utils.cpp.o
+clientMatrix: CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o
+clientMatrix: CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o
+clientMatrix: CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o
 clientMatrix: CMakeFiles/clientMatrix.dir/build.make
 clientMatrix: CMakeFiles/clientMatrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/practica1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable clientMatrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/practica2/multMatrix/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable clientMatrix"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clientMatrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,9 +151,9 @@ CMakeFiles/clientMatrix.dir/build: clientMatrix
 
 .PHONY : CMakeFiles/clientMatrix.dir/build
 
-CMakeFiles/clientMatrix.dir/requires: CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o.requires
-CMakeFiles/clientMatrix.dir/requires: CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o.requires
-CMakeFiles/clientMatrix.dir/requires: CMakeFiles/clientMatrix.dir/utils.cpp.o.requires
+CMakeFiles/clientMatrix.dir/requires: CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o.requires
+CMakeFiles/clientMatrix.dir/requires: CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o.requires
+CMakeFiles/clientMatrix.dir/requires: CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o.requires
 
 .PHONY : CMakeFiles/clientMatrix.dir/requires
 
@@ -162,6 +162,6 @@ CMakeFiles/clientMatrix.dir/clean:
 .PHONY : CMakeFiles/clientMatrix.dir/clean
 
 CMakeFiles/clientMatrix.dir/depend:
-	cd /home/ubuntu/practica1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/practica1 /home/ubuntu/practica1 /home/ubuntu/practica1 /home/ubuntu/practica1 /home/ubuntu/practica1/CMakeFiles/clientMatrix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/practica2/multMatrix && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix /home/ubuntu/practica2/multMatrix/CMakeFiles/clientMatrix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clientMatrix.dir/depend
 

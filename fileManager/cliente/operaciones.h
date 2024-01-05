@@ -2,25 +2,14 @@
 // Group: 3º MAIS  2023/2024
 
 # pragma once
-# include <vector>
 
 typedef enum{
-	opEndConnection=0,
+	opBuilder = 0,
 	opListFiles=1,
 	opReadFile=2,
 	opWriteFile=3,
+	opDestroyer = 4
 }tipoOperacion;
-
-typedef enum{
-	opConnectServer=0,
-	opConnectClient=1,
-	opDisconnectServer=2
-}opBroker;
-
-typedef enum{
-	tipoFilemanager=0,
-	tipoMulmatrix=1,
-}tipoServidor;
 
 template <typename T>
 

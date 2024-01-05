@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/practica1/multmatrix.cpp" "/home/ubuntu/practica1/CMakeFiles/serverMatrix.dir/multmatrix.cpp.o"
-  "/home/ubuntu/practica1/serverMatrix.cpp" "/home/ubuntu/practica1/CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o"
-  "/home/ubuntu/practica1/utils.cpp" "/home/ubuntu/practica1/CMakeFiles/serverMatrix.dir/utils.cpp.o"
+  "/home/ubuntu/practica2/multMatrix/servidor/multmatrix.cpp" "/home/ubuntu/practica2/multMatrix/CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o"
+  "/home/ubuntu/practica2/multMatrix/servidor/serverMatrix.cpp" "/home/ubuntu/practica2/multMatrix/CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o"
+  "/home/ubuntu/practica2/multMatrix/servidor/utils.cpp" "/home/ubuntu/practica2/multMatrix/CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,9 +6,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 project(clientMatrix LANGUAGES CXX)
-add_executable(clientMatrix ./main_multMatrix.cpp ./clientMatrix.h ./clientMatrix.cpp ./utils.h ./utils.cpp ./operacionesMatrix.h)
+add_executable(clientMatrix ./cliente/clientMatrix.cpp ./cliente/clientMatrix.h ./cliente/main_multMatrix.cpp ./cliente/operacionesMatrix.h ./cliente/utils.h ./cliente/utils.cpp)
 target_link_libraries(clientMatrix pthread)
 
 project(serverMatrix LANGUAGES CXX)
-add_executable(serverMatrix ./serverMatrix.cpp ./multmatrix.h ./multmatrix.cpp ./utils.h ./utils.cpp ./operacionesMatrix.h)
+add_executable(serverMatrix  ./servidor/serverMatrix.cpp ./servidor/conexion_cliente.h ./servidor/operacionesMatrix.h ./servidor/multmatrix.h ./servidor/multmatrix.cpp ./servidor/utils.cpp ./servidor/utils.h)
 target_link_libraries(serverMatrix pthread)

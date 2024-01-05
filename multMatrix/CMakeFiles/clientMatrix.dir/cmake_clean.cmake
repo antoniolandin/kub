@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o"
-  "CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o"
-  "CMakeFiles/clientMatrix.dir/utils.cpp.o"
+  "CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o"
+  "CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o"
+  "CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o"
   "clientMatrix.pdb"
   "clientMatrix"
 )

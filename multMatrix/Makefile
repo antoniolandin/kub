@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/practica1
+CMAKE_SOURCE_DIR = /home/ubuntu/practica2/multMatrix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/practica1
+CMAKE_BINARY_DIR = /home/ubuntu/practica2/multMatrix
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/practica1/CMakeFiles /home/ubuntu/practica1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/practica2/multMatrix/CMakeFiles /home/ubuntu/practica2/multMatrix/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/practica1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/practica2/multMatrix/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,143 +136,167 @@ serverMatrix/fast:
 	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/build
 .PHONY : serverMatrix/fast
 
-clientMatrix.o: clientMatrix.cpp.o
+cliente/clientMatrix.o: cliente/clientMatrix.cpp.o
 
-.PHONY : clientMatrix.o
-
-# target to build an object file
-clientMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/clientMatrix.cpp.o
-.PHONY : clientMatrix.cpp.o
-
-clientMatrix.i: clientMatrix.cpp.i
-
-.PHONY : clientMatrix.i
-
-# target to preprocess a source file
-clientMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/clientMatrix.cpp.i
-.PHONY : clientMatrix.cpp.i
-
-clientMatrix.s: clientMatrix.cpp.s
-
-.PHONY : clientMatrix.s
-
-# target to generate assembly for a file
-clientMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/clientMatrix.cpp.s
-.PHONY : clientMatrix.cpp.s
-
-main_multMatrix.o: main_multMatrix.cpp.o
-
-.PHONY : main_multMatrix.o
+.PHONY : cliente/clientMatrix.o
 
 # target to build an object file
-main_multMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.o
-.PHONY : main_multMatrix.cpp.o
+cliente/clientMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.o
+.PHONY : cliente/clientMatrix.cpp.o
 
-main_multMatrix.i: main_multMatrix.cpp.i
+cliente/clientMatrix.i: cliente/clientMatrix.cpp.i
 
-.PHONY : main_multMatrix.i
+.PHONY : cliente/clientMatrix.i
 
 # target to preprocess a source file
-main_multMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.i
-.PHONY : main_multMatrix.cpp.i
+cliente/clientMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.i
+.PHONY : cliente/clientMatrix.cpp.i
 
-main_multMatrix.s: main_multMatrix.cpp.s
+cliente/clientMatrix.s: cliente/clientMatrix.cpp.s
 
-.PHONY : main_multMatrix.s
+.PHONY : cliente/clientMatrix.s
 
 # target to generate assembly for a file
-main_multMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/main_multMatrix.cpp.s
-.PHONY : main_multMatrix.cpp.s
+cliente/clientMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/clientMatrix.cpp.s
+.PHONY : cliente/clientMatrix.cpp.s
 
-multmatrix.o: multmatrix.cpp.o
+cliente/main_multMatrix.o: cliente/main_multMatrix.cpp.o
 
-.PHONY : multmatrix.o
+.PHONY : cliente/main_multMatrix.o
 
 # target to build an object file
-multmatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/multmatrix.cpp.o
-.PHONY : multmatrix.cpp.o
+cliente/main_multMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.o
+.PHONY : cliente/main_multMatrix.cpp.o
 
-multmatrix.i: multmatrix.cpp.i
+cliente/main_multMatrix.i: cliente/main_multMatrix.cpp.i
 
-.PHONY : multmatrix.i
+.PHONY : cliente/main_multMatrix.i
 
 # target to preprocess a source file
-multmatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/multmatrix.cpp.i
-.PHONY : multmatrix.cpp.i
+cliente/main_multMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.i
+.PHONY : cliente/main_multMatrix.cpp.i
 
-multmatrix.s: multmatrix.cpp.s
+cliente/main_multMatrix.s: cliente/main_multMatrix.cpp.s
 
-.PHONY : multmatrix.s
+.PHONY : cliente/main_multMatrix.s
 
 # target to generate assembly for a file
-multmatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/multmatrix.cpp.s
-.PHONY : multmatrix.cpp.s
+cliente/main_multMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/main_multMatrix.cpp.s
+.PHONY : cliente/main_multMatrix.cpp.s
 
-serverMatrix.o: serverMatrix.cpp.o
+cliente/utils.o: cliente/utils.cpp.o
 
-.PHONY : serverMatrix.o
+.PHONY : cliente/utils.o
 
 # target to build an object file
-serverMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/serverMatrix.cpp.o
-.PHONY : serverMatrix.cpp.o
+cliente/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/utils.cpp.o
+.PHONY : cliente/utils.cpp.o
 
-serverMatrix.i: serverMatrix.cpp.i
+cliente/utils.i: cliente/utils.cpp.i
 
-.PHONY : serverMatrix.i
+.PHONY : cliente/utils.i
 
 # target to preprocess a source file
-serverMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/serverMatrix.cpp.i
-.PHONY : serverMatrix.cpp.i
+cliente/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/utils.cpp.i
+.PHONY : cliente/utils.cpp.i
 
-serverMatrix.s: serverMatrix.cpp.s
+cliente/utils.s: cliente/utils.cpp.s
 
-.PHONY : serverMatrix.s
+.PHONY : cliente/utils.s
 
 # target to generate assembly for a file
-serverMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/serverMatrix.cpp.s
-.PHONY : serverMatrix.cpp.s
+cliente/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/cliente/utils.cpp.s
+.PHONY : cliente/utils.cpp.s
 
-utils.o: utils.cpp.o
+servidor/multmatrix.o: servidor/multmatrix.cpp.o
 
-.PHONY : utils.o
+.PHONY : servidor/multmatrix.o
 
 # target to build an object file
-utils.cpp.o:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/utils.cpp.o
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/utils.cpp.o
-.PHONY : utils.cpp.o
+servidor/multmatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.o
+.PHONY : servidor/multmatrix.cpp.o
 
-utils.i: utils.cpp.i
+servidor/multmatrix.i: servidor/multmatrix.cpp.i
 
-.PHONY : utils.i
+.PHONY : servidor/multmatrix.i
 
 # target to preprocess a source file
-utils.cpp.i:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/utils.cpp.i
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/utils.cpp.i
-.PHONY : utils.cpp.i
+servidor/multmatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.i
+.PHONY : servidor/multmatrix.cpp.i
 
-utils.s: utils.cpp.s
+servidor/multmatrix.s: servidor/multmatrix.cpp.s
 
-.PHONY : utils.s
+.PHONY : servidor/multmatrix.s
 
 # target to generate assembly for a file
-utils.cpp.s:
-	$(MAKE) -f CMakeFiles/clientMatrix.dir/build.make CMakeFiles/clientMatrix.dir/utils.cpp.s
-	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/utils.cpp.s
-.PHONY : utils.cpp.s
+servidor/multmatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/multmatrix.cpp.s
+.PHONY : servidor/multmatrix.cpp.s
+
+servidor/serverMatrix.o: servidor/serverMatrix.cpp.o
+
+.PHONY : servidor/serverMatrix.o
+
+# target to build an object file
+servidor/serverMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.o
+.PHONY : servidor/serverMatrix.cpp.o
+
+servidor/serverMatrix.i: servidor/serverMatrix.cpp.i
+
+.PHONY : servidor/serverMatrix.i
+
+# target to preprocess a source file
+servidor/serverMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.i
+.PHONY : servidor/serverMatrix.cpp.i
+
+servidor/serverMatrix.s: servidor/serverMatrix.cpp.s
+
+.PHONY : servidor/serverMatrix.s
+
+# target to generate assembly for a file
+servidor/serverMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/serverMatrix.cpp.s
+.PHONY : servidor/serverMatrix.cpp.s
+
+servidor/utils.o: servidor/utils.cpp.o
+
+.PHONY : servidor/utils.o
+
+# target to build an object file
+servidor/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/utils.cpp.o
+.PHONY : servidor/utils.cpp.o
+
+servidor/utils.i: servidor/utils.cpp.i
+
+.PHONY : servidor/utils.i
+
+# target to preprocess a source file
+servidor/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/utils.cpp.i
+.PHONY : servidor/utils.cpp.i
+
+servidor/utils.s: servidor/utils.cpp.s
+
+.PHONY : servidor/utils.s
+
+# target to generate assembly for a file
+servidor/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/serverMatrix.dir/build.make CMakeFiles/serverMatrix.dir/servidor/utils.cpp.s
+.PHONY : servidor/utils.cpp.s
 
 # Help Target
 help:
@@ -284,21 +308,24 @@ help:
 	@echo "... clientMatrix"
 	@echo "... rebuild_cache"
 	@echo "... serverMatrix"
-	@echo "... clientMatrix.o"
-	@echo "... clientMatrix.i"
-	@echo "... clientMatrix.s"
-	@echo "... main_multMatrix.o"
-	@echo "... main_multMatrix.i"
-	@echo "... main_multMatrix.s"
-	@echo "... multmatrix.o"
-	@echo "... multmatrix.i"
-	@echo "... multmatrix.s"
-	@echo "... serverMatrix.o"
-	@echo "... serverMatrix.i"
-	@echo "... serverMatrix.s"
-	@echo "... utils.o"
-	@echo "... utils.i"
-	@echo "... utils.s"
+	@echo "... cliente/clientMatrix.o"
+	@echo "... cliente/clientMatrix.i"
+	@echo "... cliente/clientMatrix.s"
+	@echo "... cliente/main_multMatrix.o"
+	@echo "... cliente/main_multMatrix.i"
+	@echo "... cliente/main_multMatrix.s"
+	@echo "... cliente/utils.o"
+	@echo "... cliente/utils.i"
+	@echo "... cliente/utils.s"
+	@echo "... servidor/multmatrix.o"
+	@echo "... servidor/multmatrix.i"
+	@echo "... servidor/multmatrix.s"
+	@echo "... servidor/serverMatrix.o"
+	@echo "... servidor/serverMatrix.i"
+	@echo "... servidor/serverMatrix.s"
+	@echo "... servidor/utils.o"
+	@echo "... servidor/utils.i"
+	@echo "... servidor/utils.s"
 .PHONY : help
 
 
